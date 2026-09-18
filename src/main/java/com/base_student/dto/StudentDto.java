@@ -15,9 +15,9 @@ import tools.jackson.databind.ObjectMapper;
 @AllArgsConstructor
 public class StudentDto {
     @JsonIgnore
-    private Integer id;
-    private String name;
-    private String lastname;
+    public Integer id;
+    public String name;
+    public String lastName;
     private String phone;
     private String email;
 

@@ -8,6 +8,7 @@ class BaseStudentApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.out.println("Testeando, no sé si sirvió");
 	}
 
 }

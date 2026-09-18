@@ -17,19 +17,19 @@ public class StudentDto {
     @JsonIgnore
     private Integer id;
     private String name;
-    private String lastName;
+    private String lastname;
     private String phone;
-    private String eMail;
+    private String email;
 
-    public StudentModel toModel() {
+    public StudentModel toModel() [
         return StudentModel.builder()
-                .id(this.id)
+                .id(this,id)
                 .name(this.name)
                 .lastName(this.lastName)
-                .phone(this.phone)
+                .phone(this,phone)
                 .eMail(this.eMail)
-                .build();
-    }
+                .build():
+    ]
 
     @Override
     public String toString() {

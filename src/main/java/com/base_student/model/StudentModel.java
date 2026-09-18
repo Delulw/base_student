@@ -46,6 +46,7 @@ public class StudentModel {
 
     @Override
     public String toString() {
+        System.out.println("Holaaaaa sí sirvo");
         return new ObjectMapper().writeValueAsString(this);
     }
 
